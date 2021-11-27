@@ -35,7 +35,7 @@ git add .
 ### Then we commit our changes
 
 ```bash
-
+git commit -m"<title>: <commit-message>"
 ```
 
 ### Rename master branch to Main branch
