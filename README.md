@@ -65,3 +65,21 @@ If the push isn't our first ever push we use
 ```bash
 git push origin
 ```
+
+### To create a new branch
+
+```bash
+git checkout -b <branch-name>
+```
+
+### To checkout a branch we do
+
+```bash
+git checkout <branch-name>
+```
+
+### To see all the branches in a git projct
+
+```bash
+git branch
+```
