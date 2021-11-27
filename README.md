@@ -67,6 +67,13 @@ git push origin
 ```
 
 ### To create a new branch
+N.B before we create a new branch and checkout we must always pull our code in the current branch (i.e: `develop`) to our local project to keep it up to date using:
+
+```bash
+git pull origin
+```
+
+to create a new branch we do:
 
 ```bash
 git checkout -b <branch-name>
