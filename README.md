@@ -52,3 +52,16 @@ This helps connect local project to github repository
 git remote add origin <repo-link>
 ```
 
+### Then we push our local code to github
+
+If we are making our first ever push in a particular branch we do
+
+```bash
+git push -u origin <branch-name>
+```
+
+If the push isn't our first ever push we use
+
+```bash
+git push origin
+```
